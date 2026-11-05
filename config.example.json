@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "autoFetch": true,
+  "osvDatabasePath": "~/.local/share/rqps/osv",
+  "osvFeedUrl": "https://storage.googleapis.com/osv-vulnerabilities",
+  "osvRefreshMode": "manual",
+  "severityThreshold": "low",
+  "osvEcosystemMap": {
+    "npm": "npm",
+    "pip": "PyPI",
+    "go": "Go",
+    "cargo": "crates.io",
+    "maven": "Maven",
+    "gem": "RubyGems",
+    "composer": "Packagist",
+    "nuget": "NuGet",
+    "apt": "Debian",
+    "dnf": "RPM",
+    "apk": "Alpine"
+  },
+  "syftPath": "syft",
+  "discoverMaxPackages": 8000
+}
